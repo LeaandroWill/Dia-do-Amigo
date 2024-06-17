@@ -1,0 +1,95 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+    background: #fff6a4;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100 vh;
+}
+  
+.menu {
+    background-color: #ff5c51;
+    padding: 15px 0;    
+    position: sticky;   
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    text-size-adjust: 10px;
+  }
+  
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+  
+.menu li {
+    display: inline;
+    margin: 0 10px;
+}
+  
+  .menu a {
+    font-family: Inika;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .menu a:hover {
+    padding: 1rem 0;
+    background-color: #63CBCF;
+  }
+
+.imgtop {
+    height: 180px;
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+}
+
+.content {
+    font-family: Inder;
+    max-width: 1200px;
+    margin:  auto;
+    text-align: justify;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.amigos {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.friends {
+  display: flex;
+  height: 140px;
+  position: absolute;
+  top: 600px;
+  left: 270px;
+  transform: rotate(-380deg);
+}
+
+.coração {
+  
+  display: flex;
+  height: 110px;
+  position: absolute;
+  top: 1080px;
+  left: 1085px;
+  transform: rotate(380deg);
+}
